@@ -3,14 +3,12 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -59,17 +57,17 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} text-center`}>
           What I can do
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           My Skills.
         </h2>
-      </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
