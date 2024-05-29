@@ -1,5 +1,7 @@
 import logo from "./logo.png";
 import github from "./github.png";
+import phone from "./phone.png";
+import gmail from "./gmail.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -13,6 +15,8 @@ import razor from './skills/razor.png'
 import web from './skills/web.png'
 
 export {
+  gmail,
+  phone,
   asp,
   cs,
   database,
