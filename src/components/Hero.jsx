@@ -5,7 +5,7 @@ import { EarthCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto flex justify-center`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -15,15 +15,17 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white select-none`}>
             Hi, I'm <span className='text-[#915EFF]'>Maryam</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 select-none`}>
             I develop fullstack web applications
           </p>
         </div>
       </div>
-      <EarthCanvas />
+      <div className="w-[350px] h-[350px] mt-[350px]">
+        <EarthCanvas />
+      </div>
     </section>
   );
 };
