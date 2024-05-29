@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="w-[350px] h-[350px] mt-[350px]">
+      <div className="w-[350px] h-[350px] mt-[320px]">
         <EarthCanvas />
       </div>
     </section>
