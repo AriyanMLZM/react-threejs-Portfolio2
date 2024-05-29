@@ -10,13 +10,13 @@ const Contact = () => {
     >
       <div className="flex items-center justify-center w-full h-[80px] gap-8">
         <a href="mailto:maryamtalebzadeh2002@gmail.com">
-          <img src={gmail} width={'60px'} alt="" />
+          <img src={gmail} width={'50px'} alt="" />
         </a>
         <a href="https://github.com/Maryam-Talebzadeh">
-          <img src={github} width={'60px'} alt="" />
+          <img src={github} width={'50px'} alt="" />
         </a>
         <a href="tel:+989386485663">
-          <img src={phone} width={'60px'} alt="" />
+          <img src={phone} width={'50px'} alt="" />
         </a>
       </div>
     </div>
