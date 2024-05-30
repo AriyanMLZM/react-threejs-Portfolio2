@@ -6,7 +6,7 @@ import { gmail, phone, github } from '../assets'
 const Contact = () => {
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={``}
     >
       <div className="flex items-center justify-center w-full h-[80px] gap-8">
         <a href="mailto:maryamtalebzadeh2002@gmail.com">
@@ -18,6 +18,9 @@ const Contact = () => {
         <a href="tel:+989386485663">
           <img src={phone} width={'50px'} alt="" />
         </a>
+      </div>
+      <div className='flex justify-center mt-12'>
+        <p className='text-gray-500 select-none'>created by <a className='text-white hover:text-[#915EFF] text-[18px]' href="https://github.com/AriyanMLZM">AriyanMlzm</a></p>
       </div>
     </div>
   )
