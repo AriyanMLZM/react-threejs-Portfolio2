@@ -5,28 +5,32 @@ import gmail from "./gmail.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import asp from './skills/asp.png'
-import cs from './skills/CS.png'
-import database from './skills/database.png'
-import orm from './skills/ORM.png'
-import other from './skills/other.png'
-import principles from './skills/principles.png'
-import razor from './skills/razor.png'
-import web from './skills/web.png'
+import ex from './skills/ex.png'
+import figma from './skills/figma.png'
+import gsap from './skills/gsap.png'
+import js from './skills/js.png'
+import mongodb from './skills/mongodb.png'
+import native from './skills/native.png'
+import next from './skills/next.png'
+import node from './skills/node.png'
+import react from './skills/react.png'
+import three from './skills/three.png'
 
 export {
   gmail,
   phone,
-  asp,
-  cs,
-  database,
-  orm,
-  other,
-  principles,
-  razor,
   logo,
-  web,
   github,
   menu,
   close,
+  ex,
+  js,
+  mongodb,
+  native,
+  react,
+  three,
+  node,
+  next,
+  figma,
+  gsap
 };
