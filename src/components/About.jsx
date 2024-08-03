@@ -42,7 +42,7 @@ const About = () => {
         Javascript. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!{' '}
-        <br /><br /> Age : 22 <br /> Marital Status : Single
+        <br /><br /> Age : 22
       </p>
     </>
   )

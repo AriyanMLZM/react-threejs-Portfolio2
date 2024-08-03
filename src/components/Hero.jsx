@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
+import { rocket } from "../assets";
 
 const Hero = () => {
   return (
@@ -23,6 +24,11 @@ const Hero = () => {
       </div>
       <div className="w-[350px] h-[350px] mt-[320px]">
         <EarthCanvas />
+      </div>
+      <div className="absolute bottom-[10%] right-[10%] w-[150px]">
+        <a href="#">
+          <img src={rocket} alt="rocket" />
+        </a>
       </div>
     </section>
   );
