@@ -25,8 +25,8 @@ const Hero = () => {
       <div className="w-[350px] h-[350px] mt-[320px]">
         <EarthCanvas />
       </div>
-      <div className="absolute bottom-[10%] right-[10%] w-[150px]">
-        <a href="#">
+      <div className="absolute md:bottom-[10%] bottom-[8%] right-[10%] md:w-[200px] w-[120px]">
+        <a href="https://ariyanmolazem.ir">
           <img src={rocket} alt="rocket" />
         </a>
       </div>
