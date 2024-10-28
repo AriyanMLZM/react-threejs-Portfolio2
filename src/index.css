@@ -6,10 +6,10 @@
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: transparent;
+    background-color: #050816;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #3195C0;
+    background-color: #915EFF;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -19,7 +19,7 @@
     height: 5px;
 }
 ::-webkit-scrollbar-corner {
-    background-color: #3195C0;
+    background-color: #915EFF;
 }
 
 * {
